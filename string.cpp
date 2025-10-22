@@ -8,10 +8,22 @@ int main(){
 
     // cout << "string: " << str << "\n";
 
-    string str;
-    getline(cin, str);
+    // string str;
+    // getline(cin, str);
 
-    cout << str << "\n";
+    // cout << str << "\n";
+     string str = "Hello world, wonderful world!";
+
+    size_t first_occurence = str.find("world");
+
+    size_t last_occurence = str.rfind("world");
+
+    if(first_occurence != string::npos){
+        cout << first_occurence << "\n";
+        cout << last_occurence << "\n";
+    }else{
+        cout << "'world' is not found" << "\n";
+    }
 
     return 0;
 }
