@@ -13,7 +13,7 @@ int main(){
 
     // cout << str << "\n";
      string str = "Hello world, wonderful world!";
-    string str1 = "hello";
+    string str1 = "xello";
     string str2 = "world";
     
 
@@ -39,6 +39,7 @@ int main(){
     // str.replace(6,5, "world");
 
     cout << (str1.compare(str2) == 0 ? "equal" : "not equal") << "\n";
+    cout << (str1.compare(str2) < 0 ? "string 1 is smaller" : "string 1 is larger") << "\n";
 
     return 0;
 }
