@@ -13,7 +13,11 @@ int main(){
 
     // cout << str << "\n";
      string str = "Hello world, wonderful world!";
+    string str1 = "hello";
+    string str2 = "world";
+    
 
+    
     // size_t first_occurence = str.find("world");
 
     // size_t last_occurence = str.rfind("world");
@@ -28,13 +32,13 @@ int main(){
 
     // str.append("  fazle rabbi");
 
-    str.insert(10, " hello");
+    // str.insert(10, " hello");
 
     // str.erase(4,9);
 
-    str.replace(6,5, "world");
+    // str.replace(6,5, "world");
 
-    cout << str << "\n";
+    cout << (str1.compare(str2) == 0 ? "equal" : "not equal") << "\n";
 
     return 0;
 }
