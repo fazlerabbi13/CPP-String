@@ -6,7 +6,12 @@ int main(){
 
     // cin.get(str,100);
 
-    cout << "string: " << str << "\n";
+    // cout << "string: " << str << "\n";
+
+    string str;
+    getline(cin, str);
+
+    cout << str << "\n";
 
     return 0;
 }
