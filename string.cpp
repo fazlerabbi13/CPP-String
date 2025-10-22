@@ -28,7 +28,9 @@ int main(){
 
     // str.append("  fazle rabbi");
 
-    str.insert(10, " hello");
+    // str.insert(10, " hello");
+
+    str.erase(4,9);
 
     cout << str << "\n";
 
