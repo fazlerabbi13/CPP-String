@@ -26,7 +26,9 @@ int main(){
     // }
 
 
-    str.append("  fazle rabbi");
+    // str.append("  fazle rabbi");
+
+    str.insert(10, " hello");
 
     cout << str << "\n";
 
